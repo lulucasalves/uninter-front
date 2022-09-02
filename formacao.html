@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://www.uninter.com/wp-content/uploads/2022/02/ico-uninter.png"
+    />
+    <title>Lucas Alves</title>
+  </head>
+  <body>
+    <!--Link header
+    
+    Um link que fale sobre você, hobbies etc;
+
+    Um link sobre sua formação educacional, idiomas;
+
+Um link com seu portfólio. Pode colocar links para outros sites que você
+tenha feito, ou com trabalhos que você tenha desenvolvido no curso em
+outras disciplinas.
+
+Link para contato – fazer a parte visual do formulário. (utilizar inputs).
+-->
+    <div class="container screen">
+      <header class="mt-3">
+        <nav class="navbar navbar-expand-lg w-100 justify-content-between">
+          <a class="navbar-brand logo" href="./index.html">Lucas Alves</a>
+
+          <div>
+            <ul class="navbar-nav gap-4 mr-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu-active" href="./formacao.html"
+                  >Formação</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./portfolio.html">Projetos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contato.html">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <section class="d-flex justify-content-center flex-column" id="init">
+        <img src="./assets/graduate.svg" class="imgGraduate" />
+        <!--Título da formação-->
+
+        <h2 class="text-center">Formação</h2>
+        <div class="formationCard">
+          <p class="h4 mb-3">
+            Graduação em análise e desenvolvimento de sistemas
+          </p>
+          <!--Cards das minhas formações-->
+
+          <div
+            class="formationContent d-flex justify-content-between align-items-center"
+          >
+            <img
+              class="rounded-circle"
+              src="https://media-exp1.licdn.com/dms/image/C4E0BAQG5HFi6nWrpQg/company-logo_200_200/0/1655119368704?e=1669852800&v=beta&t=HTt0L_15oBcjIs9fNhEHhMR_jy1jJD_X-SPcyzGJLrI"
+            />
+            <div class="formationInfos ms-5">
+              <div class="d-flex">
+                <span>Uninter</span>
+                <p class="ms-2">06/2021 - 02/2024</p>
+              </div>
+              <p>
+                Este curso capacita o aluno de entender sobre os fundamentos das
+                tecnologias atuais em relação ao desenvolvimento de sistemas,
+                sendo capaz de realizar a função de desenvolvedor software.
+              </p>
+              <span>Média Geral: 90</span>
+            </div>
+          </div>
+        </div>
+        <div class="formationCard">
+          <p class="h4 mb-3">Graduação em design gráfico</p>
+          <div
+            class="formationContent d-flex justify-content-between align-items-center"
+          >
+            <img
+              class="rounded-circle"
+              src="https://media-exp1.licdn.com/dms/image/C4E0BAQG5HFi6nWrpQg/company-logo_200_200/0/1655119368704?e=1669852800&v=beta&t=HTt0L_15oBcjIs9fNhEHhMR_jy1jJD_X-SPcyzGJLrI"
+            />
+            <div class="formationInfos ms-5">
+              <div class="d-flex">
+                <span>Uninter</span>
+                <p class="ms-2">02/2021 - 02/2023</p>
+              </div>
+              <p>
+                O curso de design gráfico forma um profissional capaz de exercer
+                a função de design gráfico, design de produtos, design de
+                serviços, etc... O curso é muito prático fazendo com que o aluno
+                aprenda com trabalhos reais do dia a dia de um profissional de
+                design.
+              </p>
+              <span>Média Geral: 89</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer
+      class="d-flex align-items-center justify-content-center text-center"
+    >
+      <p>Criado por Lucas & <a href="https://www.uninter.com/">Uninter</a></p>
+    </footer>
+  </body>
+</html>
